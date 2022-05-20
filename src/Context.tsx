@@ -1,10 +1,11 @@
 import { createContext, useReducer } from 'react'
 
-export const themeContext = createContext()
+export const themeContext = createContext((null as any))
 
 const initialState = { darkMode: false }
 
-const themeReducer = (state, action) => {
+const themeReducer = (state:any, action:any
+    ) => {
     switch (action.type) {
         case 'toggle':
             return { darkMode: !state.darkMode }
@@ -13,7 +14,7 @@ const themeReducer = (state, action) => {
     }
 }
 
-export const ThemeProvider = (props) => {
+export const ThemeProvider = (props:any) => {
     const [state, dispatch] = useReducer(themeReducer, initialState)
     return (
         <themeContext.Provider value={{ state, dispatch }}>
