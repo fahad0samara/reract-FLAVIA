@@ -56,7 +56,7 @@ function Navbar() {
                               </button>
                              
                           </div>
-                          <Darkmood />
+                        
                       </div>
                   </div>
               </nav>
@@ -68,7 +68,8 @@ function Navbar() {
                       <div className="flex items-center text-[#e8a6c6]  text-2xl font-medium">
                           <ul className="flex items-center pr-3 xl:pr-12">
                               <li className="cursor-pointer hover:text-gray-300 ease-in">
-                                  <a href="javascript:void(0)" className="focus:outline-none focus:ring-2 focus:ring-white">Home</a>
+                                  <a href="javascript:void(0)"
+                                   className="focus:outline-none text-black font-bold focus:ring-2 focus:ring-white">Home</a>
                               </li>
                               <li className="pl-3 lg:pl-5 xl:pl-8 cursor-pointer hover:text-gray-300 ease-in">
                                   <a href="javascript:void(0)" className="focus:outline-none focus:ring-2 focus:ring-white">About Us</a>
@@ -79,11 +80,15 @@ function Navbar() {
                               <li className="pl-3 lg:pl-5 xl:pl-8 cursor-pointer hover:text-gray-300 ease-in">
                                   <a href="javascript:void(0)" className="focus:outline-none focus:ring-2 focus:ring-white">Resources</a>
                               </li>
-                          </ul>
+                              <li className='ml-7'>
+                              <Darkmood  />
+                              </li>
+                          </ul> 
                           <button className="px-6 py-3 bg-[#e8a6c6] hover:bg-indigo-500 text-white text-base font-medium rounded-lg flex items-center justify-center focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-700">
                               Sign In
                               <img className="ml-4" src="https://tuk-cdn.s3.amazonaws.com/can-uploader/large_typography_with_gradient_and_glass_effect_Svg5.svg" alt="arrow" />
                           </button>
+                         
                       </div>
                   </div>
               </nav>

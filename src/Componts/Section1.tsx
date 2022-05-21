@@ -1,7 +1,6 @@
 import img from '../img/5.png'
 import img1 from '../img/6.png'
-import {BiDonateHeart} from 'react-icons/bi' 
-import {GrThreeDEffects} from 'react-icons/gr'
+
 const Section1 = () => {
 
   return (
