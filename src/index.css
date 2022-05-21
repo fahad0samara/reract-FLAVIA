@@ -8,3 +8,7 @@
 .gradientt {
     background: linear-gradient(50deg, #e8a6c6 50%, #f7f3f3 50%);
 }
+
+.gradienttt {
+    background: linear-gradient(-50deg, #e8a6c6 50%, #f7f3f3 50%);
+}
