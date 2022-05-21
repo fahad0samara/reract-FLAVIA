@@ -1,3 +1,10 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+.gradient {
+    background: linear-gradient(-36deg, #f7f3f3 50%, #e8a6c6 50%);
+}
+
+.gradientt {
+    background: linear-gradient(50deg, #e8a6c6 50%, #f7f3f3 50%);
+}
