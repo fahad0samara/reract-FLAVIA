@@ -3,6 +3,7 @@ import Darkmood from './Darkmood'
 import {AiOutlineBars} from 'react-icons/ai'
 import {AiOutlineClose} from 'react-icons/ai'
 import img from './img/0.png'
+import img0 from './img/3.jpg'
 function Navbar() {
   const [show, setShow] = useState(false);
   return (
@@ -42,26 +43,97 @@ function Navbar() {
             <Darkmood />
           </div>
         </nav>
-        <div className="w-full ">
-          <div className=" relative rounded-lg bg-indigo-700 container mx-auto flex flex-col items-center  lg:pb-56 xl:pb-64">
-            <img className="mr-2 lg:mr-12 mt-2 lg:mt-12 absolute right-0 top-0" src="https://tuk-cdn.s3.amazonaws.com/can-uploader/center_aligned_with_image-svg2.svg" alt="bg" />
-            <img className="ml-2 lg:ml-12 mb-2 lg:mb-12 absolute bottom-0 left-0" src="https://tuk-cdn.s3.amazonaws.com/can-uploader/center_aligned_with_image-svg3.svg" alt="bg" />
-            <div className="w-11/12 sm:w-2/3 mb-5 sm:mb-10">
-              <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl text-center text-white font-bold leading-tight">The Freedom to Create the Pages You Want</h1>
-            </div>
-            <div className="flex justify-center items-center ">
-              <button className="hover:text-white hover:bg-transparent lg:text-xl hover:border-white border bg-white transition duration-150 ease-in-out focus:outline-none focus:ring-2 focus:ring-offset-2 ring-offset-indigo-700	focus:ring-white rounded text-indigo-700 px-4 sm:px-8 py-1 sm:py-3 text-sm">Get Started</button>
-              <button className="hover:bg-white hover:text-indigo-600 lg:text-xl hover:border-indigo-600 ml-3 sm:ml-6 bg-transparent transition duration-150 ease-in-out focus:outline-none focus:ring-2 focus:ring-offset-2 ring-offset-indigo-700 focus:ring-white hover:bg-indigo-700-800 rounded border border-white text-white px-4 sm:px-8 py-1 sm:py-3 text-sm">Learn More</button>
-            </div>
-          </div>
-          <div className="container  my-10">
-            <div className="relative  w-11/12">
-              <img src={img} alt="Sample Page" role="img" />
-            </div>
-          </div>
-        </div>
+        <section className="relative">
 
+  <div className="relative container mx-auto px-4">
+    <img className="absolute bottom-0 inset-x-0 w-full h-80 -mb-16 lg:mb-0 md:h-full object-cover" src={img} alt=""/>
+    <div className="hidden lg:flex absolute right-0 top-1/2 transform -translate-y-1/2 flex-col items-center">
+      <span className="mb-5 font-bold font-heading">01</span>
+      <div className="mb-5 h-16 w-px "></div>
+      <button className="mb-5">
+        <img src="yofte-assets/elements/circle.svg" alt=""/>
+      </button>
+      <button className="mb-6 w-1 h-1 bg-blue-500 rounded-full"></button>
+      <button className="mb-6 w-1 h-1 bg-blue-500 rounded-full"></button>
+      <div className="h-16 w-px bg-gray-100"></div>
+    </div>
+    <div className="relative flex flex-wrap -mx-4">
+      <div className="w-full md:w-1/2 px-4 mb-12 lg:mb-0 pt-20 lg:pt-32 pb-32 lg:pb-64">
+        <div className="max-w-md">
+          <h2 className="mb-8 text-5xl lg:text-6xl font-semibold font-heading">Get 10% off site-wide when you spend $30 with code: new</h2>
+          <p className="mb-20 text-lg ">Discover more products and inspiration.</p>
+          <a className="inline-block bg-orange-300 hover:bg-orange-400 text-white font-bold font-heading py-6 px-8 rounded-md uppercase transition duration-200" href="#">Shop Now</a>
+        </div>
       </div>
+    </div>
+  </div>
+  <div className="relative bg-gray-100 pt-20">
+    <div className="container mx-auto px-4">
+      <div className={'flex lg:-mt-52 mb-20 flex-wrap justify-center'}>
+    
+        <div className="flex flex-col items-center justify-center max-w-sm mx-auto">
+        <div className="w-full h-64 bg-gray-300 bg-center bg-cover rounded-lg shadow-md"  style={{backgroundImage: `url(${img})`}}></div>
+
+        <div className="w-56 -mt-10 overflow-hidden bg-white rounded-lg shadow-lg md:w-64 dark:bg-gray-800">
+            <h3 className="py-2 font-bold tracking-wide text-center text-gray-800 uppercase dark:text-white">Nike Revolt</h3>
+            
+            <div className="flex items-center justify-between px-3 py-2 bg-gray-200 dark:bg-gray-700">
+                <span className="font-bold text-gray-800 dark:text-gray-200">$129</span>
+                <button className="px-2 py-1 text-xs font-semibold text-white uppercase transition-colors duration-200 transform bg-gray-800 rounded hover:bg-gray-700 dark:hover:bg-gray-600 focus:bg-gray-700 dark:focus:bg-gray-600 focus:outline-none">Add to cart</button>
+            </div>
+        </div>
+    </div>
+    <div className="flex flex-col items-center justify-center max-w-sm mx-auto">
+        <div className="w-full h-64 bg-gray-300 bg-center bg-cover rounded-lg shadow-md"  style={{backgroundImage: `url(${img0})`}}></div>
+
+        <div className="w-56 -mt-10 overflow-hidden bg-white rounded-lg shadow-lg md:w-64 dark:bg-gray-800">
+            <h3 className="py-2 font-bold tracking-wide text-center text-gray-800 uppercase dark:text-white">Nike Revolt</h3>
+            
+            <div className="flex items-center justify-between px-3 py-2 bg-gray-200 dark:bg-gray-700">
+                <span className="font-bold text-gray-800 dark:text-gray-200">$129</span>
+                <button className="px-2 py-1 text-xs font-semibold text-white uppercase transition-colors duration-200 transform bg-gray-800 rounded hover:bg-gray-700 dark:hover:bg-gray-600 focus:bg-gray-700 dark:focus:bg-gray-600 focus:outline-none">Add to cart</button>
+            </div>
+        </div>
+    </div>
+    <div className="flex flex-col items-center justify-center max-w-sm mx-auto">
+        <div className="w-full h-64 bg-gray-300 bg-center bg-cover rounded-lg shadow-md"  style={{backgroundImage: `url(${img0})`}}></div>
+
+        <div className="w-56 -mt-10 overflow-hidden bg-white rounded-lg shadow-lg md:w-64 dark:bg-gray-800">
+            <h3 className="py-2 font-bold tracking-wide text-center text-gray-800 uppercase dark:text-white">Nike Revolt</h3>
+            
+            <div className="flex items-center justify-between px-3 py-2 bg-gray-200 dark:bg-gray-700">
+                <span className="font-bold text-gray-800 dark:text-gray-200">$129</span>
+                <button className="px-2 py-1 text-xs font-semibold text-white uppercase transition-colors duration-200 transform bg-gray-800 rounded hover:bg-gray-700 dark:hover:bg-gray-600 focus:bg-gray-700 dark:focus:bg-gray-600 focus:outline-none">Add to cart</button>
+            </div>
+        </div>
+    </div>
+      </div>
+  
+    
+       
+
+     
+        <div className="w-1/2 md:w-1/3 lg:w-1/6 px-2 mb-12">
+          <img className="mx-auto h-6" src="https://shuffle.dev/yofte-assets/brands/eurosport.svg" alt=""/>
+        </div>
+        <div className="w-1/2 md:w-1/3 lg:w-1/6 px-2 mb-12">
+          <img className="mx-auto h-6" src="yofte-assets/brands/eurosport.svg" alt=""/>
+        </div>
+        <div className="w-1/2 md:w-1/3 lg:w-1/6 px-2 mb-12">
+          <img className="mx-auto h-6" src="yofte-assets/brands/nike.svg" alt=""/>
+        </div>
+        <div className="w-1/2 md:w-1/3 lg:w-1/6 px-2 mb-12">
+          <img className="mx-auto h-6" src="yofte-assets/brands/aol.svg" alt=""/>
+        </div>
+        <div className="w-1/2 md:w-1/3 lg:w-1/6 px-2 mb-12">
+          <img className="mx-auto h-6" src="yofte-assets/brands/north-face.svg" alt=""/>
+        </div>
+      </div>
+    </div>
+ 
+
+</section>
+</div>
   );
 }
 
