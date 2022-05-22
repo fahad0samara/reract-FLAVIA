@@ -7,6 +7,10 @@ import Section2 from './Componts/Section2';
 import Section3 from './Componts/Section3';
 import { themeContext } from './Context'
 import Navbar from './Navbar';
+import AOS from 'aos';
+import 'aos/dist/aos.css'; // You can also use <link> for styles
+// ..
+AOS.init();
 function App() {
   const theme = useContext(themeContext)
   const darkMode = theme.state.darkMode

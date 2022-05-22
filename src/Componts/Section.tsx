@@ -31,28 +31,38 @@ const Section = () => {
             <div className=" gradienttt text-black  mx-auto sm:max-w-xl md:max-w-full px-8 ">
                 <div className="grid grid-cols-2 row-gap-8 md:grid-cols-4">
                     <div className="text-center">
-                        <h6 className="text-3xl font-bold text-deep-purple-accent-400">
+                        <h6
+                        data-aos="fade-down"
+                        className="text-3xl font-bold text-deep-purple-accent-400">
                             144K
                         </h6>
                         <p className="font-bold">Happy customers  </p>
                     </div>
                     <div className="text-center">
-                        <h6 className="text-3xl font-bold text-deep-purple-accent-400">
+                        <h6 
+                        data-aos="fade-right"
+                        className="text-3xl font-bold text-deep-purple-accent-400">
                             32.1K
                         </h6>
                         <p className="font-bold">Users</p>
                     </div>
                     <div className="text-center">
-                        <h6 className="text-3xl font-bold text-deep-purple-accent-400">
+                        <h6
+                        data-aos="fade-right"
+                        className="text-3xl font-bold text-deep-purple-accent-400">
                             12.9K
                         </h6>
                         <p className="font-bold">Subscribers</p>
                     </div>
                     <div className="text-center">
-                        <h6 className="text-3xl font-bold text-deep-purple-accent-400">
+                        <h6
+                        data-aos="fade-down"
+                        className="text-3xl font-bold text-deep-purple-accent-400">
                             95%
                         </h6>
-                        <p className="font-bold">Happy customers</p>
+                        <p
+                        data-aos="fade-down"
+                        className="font-bold">Happy customers</p>
                     </div>
                 </div>
             </div>
