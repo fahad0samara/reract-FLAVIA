@@ -29,7 +29,7 @@ function Navbar() {
                                       <span className="font-bold">Home</span>
                                   </a>
                               </li>
-                              <li className="flex cursor-pointer text-[#e8a6c6]text-sm leading-3 tracking-normal py-2 hover:text-indigo-700 focus:text-indigo-700 focus:outline-none" onclick="dropdownHandler(this)">
+                              <li className="flex cursor-pointer text-[#e8a6c6]text-sm leading-3 tracking-normal py-2 hover:text-indigo-700 focus:text-indigo-700 focus:outline-none" >
                                   <a href="javascript: void(0)" className="ml-2 focus:outline-none focus:ring-2 focus:ring-black">
                                       <span className="font-bold">About Us</span>
                                   </a>
@@ -39,12 +39,12 @@ function Navbar() {
                                       <span className="font-bold">Pricing</span>
                                   </a>
                               </li>
-                              <li className="flex cursor-pointer text-[#e8a6c6] text-sm leading-3 tracking-normal py-2 hover:text-indigo-700 focus:text-indigo-700 focus:outline-none" onclick="dropdownHandler(this)">
+                              <li className="flex cursor-pointer text-[#e8a6c6] text-sm leading-3 tracking-normal py-2 hover:text-indigo-700 focus:text-indigo-700 focus:outline-none" >
                                   <a href="javascript: void(0)" className="ml-2 focus:outline-none focus:ring-2 focus:ring-black">
                                       <span className="font-bold">Resources</span>
                                   </a>
                               </li>
-                              <li className="flex cursor-pointer text-[#e8a6c6] text-sm leading-3 tracking-normal pt-2 pb-4 hover:text-indigo-700 focus:text-indigo-700 focus:outline-none" onclick="dropdownHandler(this)">
+                              <li className="flex cursor-pointer text-[#e8a6c6] text-sm leading-3 tracking-normal pt-2 pb-4 hover:text-indigo-700 focus:text-indigo-700 focus:outline-none">
                                   <a href="javascript: void(0)" className="ml-2 focus:outline-none focus:ring-2 focus:ring-black">
                                       <span className="font-bold">Sign In</span>
                                   </a>
