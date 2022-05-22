@@ -12,11 +12,18 @@ import img7 from '../img/17.avif'
 const Section3 = () => {
   return (
       <div>
-  <h1 className={'text-[#e8a6c6] font-black text-3xl text-center'}>products for you</h1>
+  <h1 
+   data-aos="fade-right"
+   data-aos-offset="300"
+   data-aos-easing="ease-in-sine"
+  
+  className={'text-[#e8a6c6] font-black text-3xl text-center'}>products for you</h1>
   <section className=" body-font">
     <div className="container px-5 py-24 mx-auto ">
       <div className="flex flex-wrap ">
-        <div className="lg:w-1/4 md:w-1/2 p-4 w-full shadow-xl hover:shadow-[#e8a6c6] drop-shadow-2xl  ">
+        <div
+        data-aos="fade-left"
+        className="lg:w-1/4 md:w-1/2 p-4 w-full shadow-xl hover:shadow-[#e8a6c6] drop-shadow-2xl  ">
           <a className="block relative h-48 rounded overflow-hidden">
             <img alt="ecommerce" className="object-cover object-center w-full h-full block" src={img}/>
           </a>
@@ -26,7 +33,9 @@ const Section3 = () => {
             <p className="mt-1">$16.00</p>
           </div>
         </div>
-        <div className="lg:w-1/4 md:w-1/2 p-4 w-full hover:shadow-[#e8a6c6] shadow-xl  drop-shadow-2xl  rounded-2xl">
+        <div
+        data-aos="fade-right"
+        className="lg:w-1/4 md:w-1/2 p-4 w-full hover:shadow-[#e8a6c6] shadow-xl  drop-shadow-2xl  rounded-2xl">
           <a className="block relative h-48 rounded overflow-hidden">
             <img alt="ecommerce" className="object-cover object-center w-full h-full block" src={img1}/>
           </a>
@@ -36,7 +45,10 @@ const Section3 = () => {
             <p className="mt-1">$21.15</p>
           </div>
         </div>
-        <div className="lg:w-1/4 md:w-1/2 p-4 w-full shadow-2xl hover:shadow-[#e8a6c6]">
+        <div
+        data-aos="fade-left"
+        
+        className="lg:w-1/4 md:w-1/2 p-4 w-full shadow-2xl hover:shadow-[#e8a6c6]">
           <a className="block relative h-48 rounded overflow-hidden">
             <img alt="ecommerce" className="object-cover object-center w-full h-full block"src={img2} />
           </a>
@@ -46,7 +58,9 @@ const Section3 = () => {
             <p className="mt-1">$12.00</p>
           </div>
         </div>
-        <div className="lg:w-1/4 md:w-1/2 p-4 w-full shadow-2xl hover:shadow-[#e8a6c6]">
+        <div
+        data-aos="fade-right"
+        className="lg:w-1/4 md:w-1/2 p-4 w-full shadow-2xl hover:shadow-[#e8a6c6]">
           <a className="block relative h-48 rounded overflow-hidden">
             <img alt="ecommerce" className="object-cover object-center w-full h-full block" src={img3}/>
           </a>
@@ -56,7 +70,9 @@ const Section3 = () => {
             <p className="mt-1">$18.40</p>
           </div>
         </div>
-        <div className="lg:w-1/4 md:w-1/2 p-4 w-full shadow-2xl hover:shadow-[#e8a6c6]">
+        <div 
+        data-aos="fade-right"
+        className="lg:w-1/4 md:w-1/2 p-4 w-full shadow-2xl hover:shadow-[#e8a6c6]">
           <a className="block relative h-48 rounded overflow-hidden">
             <img alt="ecommerce" className="object-cover object-center w-full h-full block" src={img4}/>
           </a>
@@ -66,7 +82,10 @@ const Section3 = () => {
             <p className="mt-1">$16.00</p>
           </div>
         </div>
-        <div className="lg:w-1/4 md:w-1/2 p-4 w-full shadow-2xl hover:shadow-[#e8a6c6]">
+        <div 
+        
+        data-aos="fade-left"
+        className="lg:w-1/4 md:w-1/2 p-4 w-full shadow-2xl hover:shadow-[#e8a6c6]">
           <a className="block relative h-48 rounded overflow-hidden">
             <img alt="ecommerce" className="object-cover object-center w-full h-full block" src={img7}/>
           </a>
@@ -76,7 +95,9 @@ const Section3 = () => {
             <p className="mt-1">$21.15</p>
           </div>
         </div>
-        <div className="lg:w-1/4 md:w-1/2 p-4 w-full shadow-2xl hover:shadow-[#e8a6c6]">
+        <div
+        data-aos="fade-right"
+        className="lg:w-1/4 md:w-1/2 p-4 w-full shadow-2xl hover:shadow-[#e8a6c6]">
           <a className="block relative h-48 rounded overflow-hidden">
             <img alt="ecommerce" className="object-cover object-center w-full h-full block" src={img6}/>
           </a>
@@ -86,7 +107,8 @@ const Section3 = () => {
             <p className="mt-1">$12.00</p>
           </div>
         </div>
-        <div className="lg:w-1/4 drop-shadow-2xl md:w-1/2 p-4 w-full shadow-2xl hover:shadow-[#e8a6c6]">
+        <div data-aos="fade-right"
+        className="lg:w-1/4 drop-shadow-2xl md:w-1/2 p-4 w-full shadow-2xl hover:shadow-[#e8a6c6]">
           <a className="block relative h-48 rounded overflow-hidden">
             <img alt="ecommerce" className="object-cover object-center w-full h-full block" src={img5}/>
           </a>
